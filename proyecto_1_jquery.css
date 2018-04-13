@@ -1,0 +1,124 @@
+body{
+    background-color: #0E0E0E;
+}
+
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.row{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-left: 0px;
+    max-width: 100%;
+}
+
+.cabecera{
+    margin: 0px;
+    position: fixed;
+    background-color: rgb(8, 8, 8);
+    border-bottom: black 2px solid;
+    top: 0px;
+    width: 100%;
+    padding-bottom: 0px;
+    z-index: 1;
+}
+
+.cabecera .titulo{
+    text-align: center;
+}
+
+.cabecera h1{
+    color: azure;
+    font-size: 60px;
+    padding: 0;
+    margin: 5px;
+    display: inline;
+}
+
+.cabecera img{
+    height: 80px;
+    width: 80px;
+    padding-top: 10px;
+}
+
+.buscador{
+    margin-top: 30px;
+}
+
+.portada_home{
+    margin: 0px;
+    margin-top: 170px;
+    max-width: 100%;
+}
+
+.portada_home img{
+    width: 100%;
+}
+
+.cuerpo{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.pelicula{
+    color: white;
+    float: left;
+    height: 580px;
+    margin-top: 20px;
+    padding: 0 10px;
+    text-align: left;
+}
+
+.pelicula img{
+    max-height: 450px;
+    max-width: 300px;
+}
+
+.no_encontrado{
+    color: white;
+}
+
+#loading img{
+    width: 300px;
+    height: 300px;
+}
+
+.card{
+    background-color: transparent !important;
+}
+
+.card-footer{
+    bottom: 0;
+    position: absolute;
+}
+
+.informacion_peli{
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.breadcrumb{
+    background: #555555;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+.breadcrumb button{
+    background: transparent;
+    border: transparent;
+    color: whitesmoke;
+}
+
+.pie{
+    background-color: #222222;
+    border-top: solid #444444 2px; 
+    color: white;
+    width:100%;
+    bottom: 0;
+    clear: left;
+}
